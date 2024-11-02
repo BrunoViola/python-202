@@ -9,9 +9,9 @@ friend_fruits = {'banana', 'orange', 'grape'}
 # set3 = {'apple', 'orange'}
 # print(set3.issubset(fruits))  # Output: True
 
-union_result = my_fruits | friend_fruits
-intersection_result = my_fruits & friend_fruits
-difference_result = my_fruits - friend_fruits
+union_result = my_fruits.union(friend_fruits)
+intersection_result = my_fruits.intersection(friend_fruits)
+difference_result = my_fruits.difference(friend_fruits)
 
 print('Union:', union_result)
 print('Intersection:', intersection_result)
